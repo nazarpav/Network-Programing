@@ -1,0 +1,23 @@
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\bin\Debug\Database.dll.config
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\bin\Debug\Database.dll
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\bin\Debug\Database.pdb
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\bin\Debug\EntityFramework.dll
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\bin\Debug\EntityFramework.xml
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\obj\Debug\Database.csprojAssemblyReference.cache
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\obj\Debug\Database.csproj.CopyComplete
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\obj\Debug\Database.dll
+C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\13. FT - Network Programming\03 Async Sockets\ClientServer\Database\obj\Debug\Database.pdb
+E:\Network_Programing\ClassWork\24_03_2020\ClientServer\Database\obj\Debug\Database.csprojAssemblyReference.cache
+E:\Network_Programing\ClassWork\24_03_2020\ClientServer\Database\obj\Debug\Database.dll
+E:\Network_Programing\ClassWork\24_03_2020\ClientServer\Database\obj\Debug\Database.pdb
+E:\Network_Programing\ClassWork\24_03_2020\ClientServer\Database\bin\Debug\Database.dll.config
+E:\Network_Programing\ClassWork\24_03_2020\ClientServer\Database\bin\Debug\Database.dll
+E:\Network_Programing\ClassWork\24_03_2020\ClientServer\Database\bin\Debug\Database.pdb
+E:\Network_Programing\ClassWork\24_03_2020\ClientServer\Database\bin\Debug\EntityFramework.dll
+E:\Network_Programing\ClassWork\24_03_2020\ClientServer\Database\bin\Debug\EntityFramework.SqlServer.dll
+E:\Network_Programing\ClassWork\24_03_2020\ClientServer\Database\bin\Debug\EntityFramework.xml
+E:\Network_Programing\ClassWork\24_03_2020\ClientServer\Database\bin\Debug\EntityFramework.SqlServer.xml
+E:\Network_Programing\ClassWork\24_03_2020\ClientServer\Database\obj\Debug\Database.csproj.CopyComplete
