@@ -75,22 +75,11 @@ namespace _01_04_2020
                 };
                 client.Connect(server);
 
-                foreach (var item in client.GetMailInfos().Skip(20).Take(10))
+                foreach (var item in client.GetMailInfos().Take(10))
                 {
-                    Letter l= new Letter(client.GetMail(item));
+                    Letter l = new Letter(client.GetMail(item));
                     History.Items.Add(l);
                 }
-
-                //foreach (var m in messages)
-                //{
-                //    Console.WriteLine($"Index: {m.Index}{Environment.NewLine}Size: {m.Size}");
-                //    Console.WriteLine(Environment.NewLine);
-
-                //    Mail message = client.GetMail(m);
-
-                //    Console.WriteLine($"From: {message.From}\n\n\t{message.Subject}");
-                //    Console.WriteLine("-----------------------------------------------------");
-                //}
             }
             catch (Exception ex)
             {
