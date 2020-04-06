@@ -26,6 +26,6 @@
         </Grid>
         <Button Content="Path to Save" Grid.Column="1" Background="#FF55A5D3" FontSize="14" FontFamily="Segoe UI Black" Margin="5"/>
         <TextBox Grid.Column="2" TextWrapping="Wrap" Name="PathToSave" Margin="0,10"/>
-        <Image Name="Image_" Grid.Column="1" Grid.Row="1" OpacityMask="#FF996F6F" Margin="2" Grid.ColumnSpan="2" Source="E:\Network_Programing\HomeWork\04_04_2020\25_20_2020\123.jpg"/>
+        <Image Name="Image_" Grid.Column="1" Grid.Row="1" OpacityMask="#FF996F6F" Margin="2" Grid.ColumnSpan="2" Source="123.jpg"/>
     </Grid>
 </Window>
