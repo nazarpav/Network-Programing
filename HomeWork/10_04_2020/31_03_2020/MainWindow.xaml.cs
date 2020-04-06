@@ -41,6 +41,7 @@ namespace _31_03_2020
             var s = dgrids.Where(q => q.Uri == ((WebClient)sender).BaseAddress).FirstOrDefault();
             s.ProgBar = "%" + eventArgs.ProgressPercentage;
             Dispatcher.Invoke(() => DG.Items.Refresh());
+			//з прогрес баром не працювало його не відображало
         }
         private void Client_DownloadFileCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
         {
