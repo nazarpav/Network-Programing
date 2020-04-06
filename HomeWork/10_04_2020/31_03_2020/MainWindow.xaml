@@ -16,7 +16,6 @@
         <TextBox VerticalContentAlignment="Center" Name="PathToSave" Margin="2" Background="#FFFFE27E" MouseDoubleClick="PathToSave_MouseDoubleClick"  FontFamily="Arial Black"/>
         <TextBox VerticalContentAlignment="Center" Grid.Row="1" Name="PathToLoad" Margin="2" Background="#FFFFE27E" FontFamily="Arial Black"/>
         <Button  Grid.Row="2" Content="Start" Background="#FF41BF75" FontSize="22" FontFamily="Arial Black" Click="Button_Click"/>
-        <!--<ProgressBar Name="PRGB" Maximum="100" Background="#FFFFFFD3" Grid.Row="3" />-->
-        <ListView Name="LV" Background="#FFFFFFD3" Grid.Row="3" FontSize="22" FontFamily="Arial Black"/>
+        <DataGrid Name="DG" AutoGenerateColumns="True" ItemsSource="{Binding Item}" SelectedItem="{Binding SelectedItem}" Background="#FFFFFFD3" Grid.Row="3" FontSize="16" FontFamily="Arial Black"/>
     </Grid>
 </Window>
