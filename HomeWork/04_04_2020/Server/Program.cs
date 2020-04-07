@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -8,6 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Media.Imaging;
 
 namespace Server
 {
@@ -84,9 +86,8 @@ namespace Server
             Bitmap bmp = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
             using (Graphics g = Graphics.FromImage(bmp))
             {
-                g.CopyFromScreen(3700, 800, 0, 0, Screen.PrimaryScreen.Bounds.Size);
-                return bmp;
-                //bmp.Save("screenshot.png");  // saves the image
+                g.CopyFromScreen(0, 0, 0, 0, Screen.PrimaryScreen.Bounds.Size);
+                return new Bitmap(bmp,288,162);
             }
         }
     }

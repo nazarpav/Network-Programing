@@ -71,15 +71,23 @@ namespace _25_20_2020
         }
         private void EndReceive(IAsyncResult res)
         {
-            UdpState st = (UdpState)res.AsyncState;
-            BitmapImage biImg = new BitmapImage();
-            biImg.BeginInit();
-            var f = st.UdpClient.EndReceive(res, ref st.endPoint);
-            biImg.StreamSource = new MemoryStream(f);
-            biImg.EndInit();
-            var im = biImg as ImageSource;
-            im.Freeze();
-            Application.Current.Dispatcher.Invoke(() => Image_.Source = im);
+            try
+            {
+
+                UdpState st = (UdpState)res.AsyncState;
+                BitmapImage biImg = new BitmapImage();
+                biImg.BeginInit();
+                var f = st.UdpClient.EndReceive(res, ref st.endPoint);
+                biImg.StreamSource = new MemoryStream(f);
+                biImg.EndInit();
+                var im = biImg as ImageSource;
+                im.Freeze();
+                Application.Current.Dispatcher.Invoke(() => Image_.Source = im);
+            }
+            catch
+            {
+
+            }
         }
         public void Receiver(UdpClient receivingUdpClient)
         {
@@ -89,7 +97,7 @@ namespace _25_20_2020
                 UdpState s = new UdpState();
                 s.endPoint = RemoteIpEndPoint;
                 s.UdpClient = receivingUdpClient;
-                receivingUdpClient.BeginReceive(EndReceive, s).AsyncWaitHandle.WaitOne();
+                receivingUdpClient.BeginReceive(EndReceive, s).AsyncWaitHandle.WaitOne(150);
             }
             catch (Exception ex)
             {
