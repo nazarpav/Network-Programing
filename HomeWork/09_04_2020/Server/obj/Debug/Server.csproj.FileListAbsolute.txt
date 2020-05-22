@@ -1,0 +1,7 @@
+C:\Projects\Network_Programing\HomeWork\09_04_2020\Server\bin\Debug\Server.exe.config
+C:\Projects\Network_Programing\HomeWork\09_04_2020\Server\bin\Debug\Server.exe
+C:\Projects\Network_Programing\HomeWork\09_04_2020\Server\bin\Debug\Server.pdb
+C:\Projects\Network_Programing\HomeWork\09_04_2020\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Projects\Network_Programing\HomeWork\09_04_2020\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Projects\Network_Programing\HomeWork\09_04_2020\Server\obj\Debug\Server.exe
+C:\Projects\Network_Programing\HomeWork\09_04_2020\Server\obj\Debug\Server.pdb
